@@ -1,0 +1,171 @@
+body {
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+.home_container {
+    height: 100%;
+    position: relative;
+
+}
+.sidebar {
+    width: 22%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    padding-top: 20px;
+}
+.sidebar img {
+    width: 80px;
+    border-radius: 100%;
+    border: 2px solid #e5e5e5;
+}
+.sidebar h4 {
+    color: #d1cfcf;
+}
+
+.sidebar img {
+    width: 30px;
+    position: relative;
+}
+
+
+.container {
+    height: 100vh;
+    margin-left: 22%;
+    position: relative;
+    margin-top: 80px;
+    padding-top: 25px;
+}
+#about_me {
+    background-color: #dbaa41;
+    border: 1px solid white;
+    padding-right: 30px;
+    padding-left: 100px;
+    color: white;
+}
+#skills {
+    border: 1px solid white;
+    padding-right: 30px;
+    padding-left: 50px;
+    color: #d1cfcf;
+
+}
+#table2 {
+    border: 2px solid white;
+    padding-right: 30px;
+    padding-left: 100px;
+    color: #b8b6b6;
+}
+.container_header p,i {
+    font-family: 'Work Sans', sans-serif;
+    line-height: 2;
+}
+.container_header h3,b {
+    color: #0c0b0b;
+}
+.container_header h3,u {
+    text-decoration-color: #f1b636;
+}
+#table3 {
+    border: 1px solid #ffffff;
+    padding-right: 30px;
+    padding-left: 100px;
+}
+#testimonoils {
+
+    text-decoration-color: 2px #ce9417;
+
+}
+#div_img {
+    position: absolute;
+}
+#div_name {
+
+    margin-left: 30%;
+    margin-top: 5%;
+
+}
+.container_header img {
+    width: 70px;
+    border-radius: 100%;
+    border: 2px solid #e5e5e5;
+
+}
+
+.container h2 {
+    padding-right: 30px;
+    padding-left: 100px;
+}
+
+#td1 {
+    padding-right: 0px;
+    padding-left: 100px;
+
+}
+#copyimg {
+    width: 80px;
+    height: 90px;
+}
+
+.service td {
+    
+    padding-left: 30px;
+}
+.service p {
+    color: #b8adad;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 2;
+}
+.service img {
+    width: 80px;
+}
+#img1 {
+    padding-left: 100px;
+}
+.client img {
+    padding-left: 30px;
+    width: 110px;
+    
+}
+.funfact td{
+    padding-left: 100px;
+    padding-right: 30px;
+    border-left: 100px;
+}
+
+.funfact img {
+    width: 100px;
+}
+.funfact h2 {
+    padding-left: 30px;
+    color: #dbaa41;
+}
+#nav {
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+  }
+  #nav li {
+    position: relative;
+    padding: 10px;
+    border-bottom: 1px solid rgb(237, 236, 236);
+    border-top: 1px solid rgb(237, 236, 236);
+    margin-top: -1px;
+  }
+  #nav li.active {
+    background-color: #f5f3f3;
+  }
+  li.active a:after {
+    background-color: #f1b636;
+    display: block;
+    position: absolute;
+    content: ' ';
+    right: 0;
+    bottom: 0;
+    width: 5px;
+    height: 100%;
+  }
+  #nav a {
+    color: black;
+    text-decoration: none;
+  }
